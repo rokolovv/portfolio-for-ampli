@@ -1,0 +1,132 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+
+.header { 
+  width: 100%;
+  padding: 15px 0;
+
+
+  display: flex;
+  margin-left: 623px;
+
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba(0, 0%, 0%);
+}
+
+.title_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 525px;
+    padding-top: 10px;
+    padding: 10px ; 
+    background: #017143;;
+    color: #000; 
+    border-radius: 400px;
+    border: none;
+    font-weight: none;
+    Letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 730px;
+    margin-top: -35px;
+    padding-top: 10px;
+    padding: 10px ; 
+    background: #017143;;
+    color: #000; 
+    border-radius: 400px;
+    border: none;
+    font-weight: none;
+    Letter-spacing: 1px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-left: 565px;
+    margin-top: 300px;
+    width: 300px;
+    padding-top: 10px;
+    padding: 10px ; 
+    background: #017143;;
+    color: #000; 
+    border-radius: 400px;
+    font-weight: 500;
+    Letter-spacing: 1px;
+    text-decoration: none;
+}
+    
+.circle {
+    position: absolute;
+    top: 0;
+    width: 2000px;
+    height: 100%;
+    background: #017143;;
+    clip-path: circle(125px at left top );
+    z-index: -5;
+  }
+
+
+  .flower {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;;
+    clip-path: circle(400px at left bottom);
+    z-index: -6;
+  }
+  
+  .circle2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;;
+    clip-path: circle(400px at right );
+    z-index: -6;
+  }
+  
+  .rem {
+    margin-left: 570px;
+    margin-top: 30px;
+  }
+
+  .no {
+    margin-left: 535px;
+    margin-top: 10px;
+    color: #017143;
+  }
